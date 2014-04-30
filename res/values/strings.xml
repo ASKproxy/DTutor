@@ -6,6 +6,7 @@
     <string name="action_settings">Settings</string>
     
     <!-- Tab Strings -->
+    <string name="ui_tabname_home">home</string>
     <string name="ui_tabname_find">find</string>
     <string name="ui_tabname_chat">chat</string>
 

@@ -31,21 +31,25 @@ public class MainActivity extends Activity {
 
         // TODO:
         // create new tabs and and set up the titles of the tabs
+        ActionBar.Tab mHomeTab = actionbar.newTab().setText(getString(R.string.ui_tabname_home));
         ActionBar.Tab mFindTab = actionbar.newTab().setText(getString(R.string.ui_tabname_find));
         ActionBar.Tab mChatTab = actionbar.newTab().setText(getString(R.string.ui_tabname_chat));
 
         // TODO:
         // create the fragments
+        Fragment mHomeFragment = new HomeFragment();
         Fragment mFindFragment = new FindFragment();
         Fragment mChatFragment = new ChatFragment();
 
         // TODO:
         // bind the fragments to the tabs - set up tabListeners for each tab
+        mHomeTab.setTabListener(new DTutorTabsListener(mHomeFragment, getApplicationContext()));
         mFindTab.setTabListener(new DTutorTabsListener(mFindFragment, getApplicationContext()));
         mChatTab.setTabListener(new DTutorTabsListener(mChatFragment, getApplicationContext()));
 
         // TODO:
         // add the tabs to the action bar
+        actionbar.addTab(mHomeTab);
         actionbar.addTab(mFindTab);
         actionbar.addTab(mChatTab);
 
