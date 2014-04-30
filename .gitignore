@@ -1,0 +1,17 @@
+# ignore all generated files. (these change all the time when code changes)
+gen/
+
+# ignore all bin directories.
+bin/
+
+# ignore all target directories.
+target/
+
+# ignore all files ending with ~
+*~
+
+# ignore other profile/system-specific files
+.metadata
+
+# silly Mac files...
+.DS_Store

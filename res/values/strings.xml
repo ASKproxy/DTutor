@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Top-Level Application Strings -->
+    <string name="app_name">DTutor</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- Tab Strings -->
+    <string name="ui_tabname_find">find</string>
+    <string name="ui_tabname_chat">chat</string>
+
+    <!-- Menu Strings -->
+    <string name="ui_menu_search">search</string>
+    <string name="ui_menu_send">send</string>
+    <string name="ui_menu_add">add</string>
+    <string name="ui_menu_quit">quit</string>
+    <string name="ui_menu_feedback">feedback</string>
+    <string name="ui_menu_about">about</string>
+    <string name="ui_menu_share">share</string>
+    
+</resources>
