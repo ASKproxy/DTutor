@@ -1,11 +1,53 @@
 DTutor
-======
+===========
+
+CS165 project repository for Dartmouth 'DTutor' android application.
 
 Resources
-======
+===========
 
-[1]: https://svn.cs.dartmouth.edu/classes/cs65-S14/gradroids/  "CS165 - Official Project Repo (SVN)"
-[2]: https://sites.google.com/site/gradroids/ "DTutor Project Website"
-[3]: https://drive.google.com/folderview?id=0BzaJMjbII1pmSFhqLW5kRmc2djg&usp=sharing "Google Folder"
-[4]: https://github.com/traviswp/DTutor "Github Repo"
-[5]: http://www.dartmouth.edu/~acskills/tutors/index.html "Dartmouth Tutor Clearninghouse"
+* [CS165 - Official Project Repo (SVN)][1]
+* [DTutor Project Website][2]
+* [Google Folder][3]
+* [Github Repo][4]
+* [Dartmouth Tutor Clearninghouse][5]
+
+[1]: https://svn.cs.dartmouth.edu/classes/cs65-S14/gradroids/ "CS165"
+[2]: https://sites.google.com/site/gradroids/
+[3]: https://drive.google.com/folderview?id=0BzaJMjbII1pmSFhqLW5kRmc2djg&usp=sharing
+[4]: https://github.com/traviswp/DTutor
+[5]: http://www.dartmouth.edu/~acskills/tutors/index.html
+
+Project Deadlines
+===========
+
+    1. Teams and webpage set up no later than Wednesday 23 April
+
+    2. 90 seconds project pitches during x-hour Thursday 2nd May
+
+      - Each team gets 90 seconds to pitch. 1 slides only linked into your webpage.
+      - Plus a 1 pager project description: What is the idea of the app?
+
+    3. Submit Design Document: Friday 16 May before midnight
+
+      - Similar to MyRuns design document
+      - Top Level Design Document (approximately 5 pager). Link the document to your project webpage;
+      - Include: Revised project description; project should focus on a single simple idea;
+      - UI, top level systems/component design diagram; and a brief description of classes
+
+    4. Checkpoint: Wednesday 21 May 12-6 pm
+
+      - You should show working code during this checkpoint. The more the better.
+      - See Fanglin for sign up. Each team gets 20 mins. Campbell's office.
+      - Free format discussion. Demo some code.
+
+    5. App Demo Day: Wednesday 28 May 4-8 pm. Meet at classroom
+
+      - All students should be able to download each groups app and play with it.
+      - Best project will be voted on by the complete group.
+      - App must be available for download from Play or project website.
+      - Bonus points for Play but takes 48 hours to process.
+      - App has to work!
+
+    6. Project report and code submitted: Thursday 29 May before midnight
+    
