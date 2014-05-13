@@ -6,17 +6,29 @@ CS165 project repository for Dartmouth 'DTutor' android application.
 Resources
 ===========
 
+####Project Materials
+
 * [CS165 - Official Project Repo (SVN)][1]
 * [DTutor Project Website][2]
 * [Google Folder][3]
 * [Github Repo][4]
 * [Dartmouth Tutor Clearninghouse][5]
 
-[1]: https://svn.cs.dartmouth.edu/classes/cs65-S14/gradroids/ "CS165"
+[1]: https://svn.cs.dartmouth.edu/classes/cs65-S14/gradroids/
 [2]: https://sites.google.com/site/gradroids/
 [3]: https://drive.google.com/folderview?id=0BzaJMjbII1pmSFhqLW5kRmc2djg&usp=sharing
 [4]: https://github.com/traviswp/DTutor
 [5]: http://www.dartmouth.edu/~acskills/tutors/index.html
+
+#### Sign-ups
+
+* [Section Leader Signup][6]
+* [Checkpoint Signup][7]
+* [Final Demo Signup][8]
+
+[6]: https://docs.google.com/spreadsheet/ccc?key=0At496M3cofd9dDFQZlowMnNLZi1hQ3VIcHJjSEd6TEE&usp=drive_web#gid=0
+[7]: http://doodle.com/t4k6zpxibvfhv2kx
+[8]: http://doodle.com/d9apxnxgwmk47nty
 
 Project Deadlines
 ===========
