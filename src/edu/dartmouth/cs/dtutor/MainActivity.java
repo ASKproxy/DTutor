@@ -32,26 +32,30 @@ public class MainActivity extends Activity {
         // TODO:
         // create new tabs and and set up the titles of the tabs
         ActionBar.Tab mHomeTab = actionbar.newTab().setText(getString(R.string.ui_tabname_home));
-        ActionBar.Tab mFindTab = actionbar.newTab().setText(getString(R.string.ui_tabname_find));
-        ActionBar.Tab mChatTab = actionbar.newTab().setText(getString(R.string.ui_tabname_chat));
-
+        ActionBar.Tab mTutoringTab = actionbar.newTab().setText(getString(R.string.ui_tabname_tutor));
+        ActionBar.Tab mGoalsTab = actionbar.newTab().setText(getString(R.string.ui_tabname_goals));
+        ActionBar.Tab mAboutTab = actionbar.newTab().setText(getString(R.string.ui_tabname_about));
+        
         // TODO:
         // create the fragments
         Fragment mHomeFragment = new HomeFragment();
-        Fragment mFindFragment = new FindFragment();
-        Fragment mChatFragment = new ChatFragment();
+        Fragment mTutorFragment = new TutorFragment();
+        Fragment mGoalsFragment = new GoalsFragment();
+        Fragment mAboutFragment = new AboutFragment();
 
         // TODO:
         // bind the fragments to the tabs - set up tabListeners for each tab
         mHomeTab.setTabListener(new DTutorTabsListener(mHomeFragment, getApplicationContext()));
-        mFindTab.setTabListener(new DTutorTabsListener(mFindFragment, getApplicationContext()));
-        mChatTab.setTabListener(new DTutorTabsListener(mChatFragment, getApplicationContext()));
+        mTutoringTab.setTabListener(new DTutorTabsListener(mTutorFragment, getApplicationContext()));
+        mGoalsTab.setTabListener(new DTutorTabsListener(mGoalsFragment, getApplicationContext()));
+        mAboutTab.setTabListener(new DTutorTabsListener(mAboutFragment, getApplicationContext()));
 
         // TODO:
         // add the tabs to the action bar
         actionbar.addTab(mHomeTab);
-        actionbar.addTab(mFindTab);
-        actionbar.addTab(mChatTab);
+        actionbar.addTab(mTutoringTab);
+        actionbar.addTab(mGoalsTab);
+        actionbar.addTab(mAboutTab);
 
         // restore navigation pane
         if(savedInstanceState != null) {
@@ -69,7 +73,7 @@ public class MainActivity extends Activity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // TODO: what to we NEED to have in the settings? what do we WANT?
+        // TODO: what do we NEED to have in the settings? what do we WANT?
         switch (item.getItemId()) {
         case R.id.menuitem_search:
             Log.d(TAG, getString(R.string.ui_menu_search));

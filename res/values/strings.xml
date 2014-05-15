@@ -7,9 +7,10 @@
     
     <!-- Tab Strings -->
     <string name="ui_tabname_home">home</string>
-    <string name="ui_tabname_find">find</string>
-    <string name="ui_tabname_chat">chat</string>
-
+    <string name="ui_tabname_tutor">tutoring</string>
+    <string name="ui_tabname_goals">goals</string>
+    <string name="ui_tabname_about">about</string>
+    
     <!-- Menu Strings -->
     <string name="ui_menu_search">search</string>
     <string name="ui_menu_send">send</string>
